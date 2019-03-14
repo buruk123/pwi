@@ -1,0 +1,19 @@
+header {
+    background-color: red;
+}
+
+#nav {
+    background-color: blue;
+}
+
+.article {
+    background-color: aqua;
+}
+
+aside {
+    background-color: coral;
+}
+
+.footer {
+    background-color: fuchsia;
+}
