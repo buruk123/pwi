@@ -12,14 +12,33 @@
     </head>
     <body>
         <header>To jest nagłówek.</header>
-        <nav id="nav"> To jest nav.
-            <ul>
-                <li><a href="05.html">str1</a></li>
-                <li><a href="06.html">str2</a></li>
-                <li><a href="07.html">str3</a></li>
-            </ul>
-        </nav>
-        
+        <nav class="navbar navbar-light bg-inverse navbar-expand-lg">
+		
+			<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#mainmenu" aria-controls="mainmenu" aria-expanded="false" aria-label="Przełącznik nawigacji">
+				<span class="navbar-toggler-icon"></span>
+			</button>
+		
+			<div class="collapse navbar-collapse" id="mainmenu">
+			
+				<ul class="navbar-nav mr-auto">
+				
+					<li class="nav-item">
+						<a class="nav-link" href="05.html">05</a>
+					</li>
+                    
+                    <li class="nav-item">
+						<a class="nav-link" href="06.html">06</a>
+					</li>
+                    
+                    <li class="nav-item">
+						<a class="nav-link" href="07.html">07</a>
+					</li>
+				
+				</ul>
+			
+			</div>
+		
+		</nav>
         <main class="main">
             <div class="container-fluid">
             <div class="row">
