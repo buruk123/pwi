@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Hello</title>
+</head>
+    <style>
+        .div1 {
+            width: 200px;
+            height: 200px;
+            background-color: green;
+        }
+    </style>
+<body>
+    <div class="div1" id="kwadrat">
+        <p>Hello World!</p>
+    </div>
+    <p><a href="#" id="schowaj">Schowaj</a><br>
+    <a href="#" id="pokaz">Pokaz</a></p>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script>
+        $("#schowaj").click(function(event) {
+            $("#kwadrat").slideUp();
+        });
+        $("#pokaz").click(function(event) {
+            $("#kwadrat").fadeIn();
+        });
+    </script>
+</body>
+</html>
