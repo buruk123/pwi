@@ -7,8 +7,8 @@ try {
     $db->exec("update zwierzeta_domowe set nazwa='Reksio' where id=3");
     $sql = 'select gatunek, nazwa from zwierzeta_domowe';
     foreach($db->query($sql) as $row) {
-        print $row['gatunek'] . "\n";
-        print $row['nazwa'] . "\n";
+        print $row['gatunek']."\n";
+        print $row['nazwa']."\n";
     }
     
 
